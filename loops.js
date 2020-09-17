@@ -22,5 +22,5 @@ function doWhileLoop(num) {
   return i;
 
   do {console.log("I run once regardless.")
-} while (num < 11);
+} while (i++ < num);
 }
